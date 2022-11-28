@@ -5,12 +5,39 @@ body{
     justify-content: center;
 }
 
+.more-buttons{
+    background-color: #0EAEAB;
+}
+
+.other-buttons{
+    background-color: #F95842;
+}
+
 .container{
     display: grid;
     grid-template-columns: 50px 50px 50px 50px;
-    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+}
+
+.item-1{
+    width: 100%;
+    height: 40px;
+}
+
+.item-plus{
+    height: 100px;
+}
+
+/* div{
+    border: 1px solid black;
+} */
+
+button{
+    font-size: 1.2rem;
+    font-family: 'Patrick Hand', cursive;
 }
 
 .item{
     list-style: none;
+    border: 1px solid black;
 }
