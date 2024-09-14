@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class adivinha{
+public class jogoDeAdivinhaNumero{
     public static void main(String args[]) {
         // Criar um projeto de adivinha de 0 até 20
         //Inicio verifcar se o número que o usuario digitou é igual a 7
