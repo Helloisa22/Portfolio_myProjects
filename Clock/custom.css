@@ -1,0 +1,23 @@
+.botaoBranco{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    height: 40px;
+    width: 120px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.containerBranco{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 6px;
+    height: 50px;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    width: 50%;
+    font-size: 27px;
+    background-color: white;
+}
